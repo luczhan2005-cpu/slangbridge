@@ -1,0 +1,1448 @@
+[
+{
+"term": "666",
+"pattern": "6{3,}",
+"lang": "zh",
+"pinyin": "liù liù liù",
+"meaning_en": "Praise for someone's skill or a smooth move; 6 (liù) sounds like 溜 'smooth'.",
+"eq": {
+"en": "sick! / insane skills",
+"fr": "trop fort / chaud",
+"zh": "太强了"
+},
+"register": "casual",
+"example": "你这操作666",
+"source": "Migaku; LingoAce number slang"
+},
+{
+"term": "太6了",
+"lang": "zh",
+"pinyin": "tài liù le",
+"meaning_en": "You're so good at this / that was impressive (variant of 666).",
+"eq": {
+"en": "you're insane (in a good way)",
+"fr": "t'es trop chaud",
+"zh": "太强了"
+},
+"register": "casual",
+"example": "哈哈你太6了",
+"source": "Migaku"
+},
+{
+"term": "520",
+"lang": "zh",
+"pinyin": "wǔ èr líng",
+"meaning_en": "'I love you' — sounds like 我爱你 (wǒ ài nǐ). Also the date 20 May, an informal Valentine's day.",
+"eq": {
+"en": "ily / love you",
+"fr": "jtm",
+"zh": "我爱你"
+},
+"register": "affectionate",
+"example": "520 宝贝",
+"source": "Wikipedia: Chinese Internet slang; Migaku"
+},
+{
+"term": "1314",
+"lang": "zh",
+"pinyin": "yī sān yī sì",
+"meaning_en": "'Forever' — sounds like 一生一世 (a whole lifetime). Often paired with 520.",
+"eq": {
+"en": "forever",
+"fr": "pour toujours",
+"zh": "一生一世"
+},
+"register": "affectionate",
+"example": "5201314",
+"source": "LingoAce number slang"
+},
+{
+"term": "886",
+"lang": "zh",
+"pinyin": "bā bā liù",
+"meaning_en": "'Bye-bye, I'm off' — 88 = bye-bye, 6 = 溜 (leave).",
+"eq": {
+"en": "bye, I'm out / cya",
+"fr": "a+ / bye",
+"zh": "拜拜"
+},
+"register": "casual",
+"example": "我先睡了 886",
+"source": "The Chairman's Bao number slang"
+},
+{
+"term": "88",
+"lang": "zh",
+"pinyin": "bā bā",
+"meaning_en": "'Bye-bye' (homophone of 拜拜).",
+"eq": {
+"en": "bye / cya",
+"fr": "a+ / bye",
+"zh": "拜拜"
+},
+"register": "casual",
+"example": "好的88",
+"source": "LingoAce number slang"
+},
+{
+"term": "2333",
+"pattern": "233+",
+"lang": "zh",
+"pinyin": "èr sān sān sān",
+"meaning_en": "Laughing out loud; from a laughing emoticon numbered 233 on the Mop forum. More 3s = harder laughter.",
+"eq": {
+"en": "LOL / LMAO",
+"fr": "mdr / ptdr",
+"zh": "哈哈哈"
+},
+"register": "casual",
+"example": "23333 笑死",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "555",
+"pattern": "5{3,}",
+"lang": "zh",
+"pinyin": "wū wū wū",
+"meaning_en": "Crying sound (5 = wǔ ≈ 呜 wū).",
+"eq": {
+"en": "😭 / *sobbing*",
+"fr": "snif / ouin 😭",
+"zh": "呜呜呜"
+},
+"register": "casual",
+"example": "555 我的ddl",
+"source": "Migaku"
+},
+{
+"term": "awsl",
+"lang": "zh",
+"pinyin": "a wǒ sǐ le",
+"meaning_en": "啊我死了 'Ah, I'm dead' — overwhelmed by cuteness or excitement.",
+"eq": {
+"en": "I'm deceased / I can't, too cute 😭",
+"fr": "je meurs, trop mimi",
+"zh": "啊我死了"
+},
+"register": "casual",
+"example": "这只猫awsl",
+"source": "Migaku; HSK Lord slang guide"
+},
+{
+"term": "yysy",
+"lang": "zh",
+"pinyin": "yǒu yī shuō yī",
+"meaning_en": "有一说一 'To be fair / honestly speaking'.",
+"eq": {
+"en": "ngl / tbh",
+"fr": "franchement / en vrai",
+"zh": "有一说一"
+},
+"register": "casual",
+"example": "yysy 这家店还行",
+"source": "Classy Mandarin (REDnote abbreviations)"
+},
+{
+"term": "zqsg",
+"lang": "zh",
+"pinyin": "zhēn qíng shí gǎn",
+"meaning_en": "真情实感 'Sincerely, with real feelings' — I genuinely mean it.",
+"eq": {
+"en": "genuinely / no joke",
+"fr": "sincèrement / pour de vrai",
+"zh": "真情实感"
+},
+"register": "casual",
+"example": "zqsg 喜欢这部剧",
+"source": "Migaku Chinese abbreviations"
+},
+{
+"term": "dddd",
+"lang": "zh",
+"pinyin": "dǒng de dōu dǒng",
+"meaning_en": "懂的都懂 'Those who know, know'.",
+"eq": {
+"en": "iykyk",
+"fr": "ceux qui savent savent",
+"zh": "懂的都懂"
+},
+"register": "casual",
+"example": "为什么？dddd",
+"source": "Classy Mandarin (REDnote abbreviations)"
+},
+{
+"term": "bdjw",
+"lang": "zh",
+"pinyin": "bù dǒng jiù wèn",
+"meaning_en": "不懂就问 'If I don't understand, I ask' — prefix for a sincere question.",
+"eq": {
+"en": "genuine question:",
+"fr": "vraie question :",
+"zh": "不懂就问"
+},
+"register": "casual",
+"example": "bdjw 这是什么梗",
+"source": "Go East Mandarin abbreviations"
+},
+{
+"term": "nb",
+"lang": "zh",
+"pinyin": "niú bī",
+"meaning_en": "牛逼 abbreviation: awesome / badass. The full form is vulgar.",
+"eq": {
+"en": "badass / that's sick",
+"fr": "trop fort / ça déchire",
+"zh": "厉害"
+},
+"register": "vulgar-mild",
+"example": "你也太nb了",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "牛逼",
+"lang": "zh",
+"pinyin": "niú bī",
+"meaning_en": "Awesome / badass (vulgar).",
+"eq": {
+"en": "fucking awesome / badass",
+"fr": "putain c'est fort / ça déchire",
+"zh": "厉害"
+},
+"register": "vulgar",
+"example": "牛逼啊兄弟",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "躺平",
+"lang": "zh",
+"pinyin": "tǎng píng",
+"meaning_en": "'Lying flat' — opting out of the rat race, doing the minimum.",
+"eq": {
+"en": "quiet quitting / I'm checking out",
+"fr": "lâcher l'affaire / faire le strict minimum",
+"zh": "躺平"
+},
+"register": "casual",
+"example": "这学期太卷了，我躺平了",
+"source": "Wikipedia: Tang ping"
+},
+{
+"term": "太卷了",
+"lang": "zh",
+"pinyin": "tài juǎn le",
+"meaning_en": "'So involuted' — the competition is excessive and exhausting (from 内卷).",
+"eq": {
+"en": "it's a rat race / everyone's tryharding",
+"fr": "c'est la course à l'échalote / tout le monde se tue à la tâche",
+"zh": "太卷了"
+},
+"register": "casual",
+"example": "这学期太卷了",
+"source": "Wikipedia: Involution (Chinese: 内卷)"
+},
+{
+"term": "卷王",
+"lang": "zh",
+"pinyin": "juǎn wáng",
+"meaning_en": "The 'king of involution' — someone who over-works to outcompete everyone.",
+"eq": {
+"en": "tryhard / grind king",
+"fr": "le premier de la classe qui se tue au taf",
+"zh": "卷王"
+},
+"register": "casual-teasing",
+"example": "他是我们班的卷王",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "吃瓜",
+"lang": "zh",
+"pinyin": "chī guā",
+"meaning_en": "'Eating melon' — watching drama/gossip as a spectator.",
+"eq": {
+"en": "grabbing the popcorn / here for the tea",
+"fr": "je prends le pop-corn / je suis là pour les potins",
+"zh": "吃瓜"
+},
+"register": "casual",
+"example": "我就是来吃瓜的",
+"source": "HSK Lord slang guide"
+},
+{
+"term": "吃瓜群众",
+"lang": "zh",
+"pinyin": "chī guā qún zhòng",
+"meaning_en": "Onlookers who enjoy the drama without taking part.",
+"eq": {
+"en": "the popcorn crowd / bystanders",
+"fr": "les spectateurs du drama",
+"zh": "吃瓜群众"
+},
+"register": "casual",
+"example": "吃瓜群众表示很开心",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "emo",
+"lang": "zh",
+"pinyin": "emo",
+"meaning_en": "Feeling down, sad or moody (used as a verb/adjective).",
+"eq": {
+"en": "in my feels / feeling low",
+"fr": "en mode déprime / j'suis bad",
+"zh": "emo"
+},
+"register": "casual",
+"example": "别emo了",
+"source": "Migaku Chinese slang"
+},
+{
+"term": "拿捏",
+"lang": "zh",
+"pinyin": "ná niē",
+"meaning_en": "Having something/someone fully under control; nailed it.",
+"eq": {
+"en": "nailed it / got it on lock",
+"fr": "géré / maîtrisé",
+"zh": "拿捏"
+},
+"register": "casual",
+"example": "这次考试拿捏了",
+"source": "HSK Lord slang guide"
+},
+{
+"term": "搭子",
+"lang": "zh",
+"pinyin": "dā zi",
+"meaning_en": "An activity buddy for one specific thing (饭搭子 food buddy, 健身搭子 gym buddy).",
+"eq": {
+"en": "buddy (gym buddy, food buddy)",
+"fr": "binôme / pote de sorties",
+"zh": "搭子"
+},
+"register": "casual",
+"example": "找个饭搭子",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "绷不住了",
+"lang": "zh",
+"pinyin": "bēng bú zhù le",
+"meaning_en": "Can't hold it in any more (laughter or tears).",
+"eq": {
+"en": "I can't 💀 / I'm crying",
+"fr": "j'en peux plus mdr",
+"zh": "绷不住了"
+},
+"register": "casual",
+"example": "看到这个我绷不住了",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "我真的会谢",
+"lang": "zh",
+"pinyin": "wǒ zhēn de huì xiè",
+"meaning_en": "Sarcastic 'I really thank you' — I'm so done, wow great.",
+"eq": {
+"en": "wow, thanks a lot (sarcastic) / I'm so done",
+"fr": "merci du cadeau / j'en peux plus",
+"zh": "无语"
+},
+"register": "casual-sarcastic",
+"example": "又加作业？我真的会谢",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "下头",
+"lang": "zh",
+"pinyin": "xià tóu",
+"meaning_en": "Instantly losing interest/attraction; a turn-off.",
+"eq": {
+"en": "the ick / major turn-off",
+"fr": "ça m'a refroidi(e)",
+"zh": "下头"
+},
+"register": "casual",
+"example": "他这样说话好下头",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "上头",
+"lang": "zh",
+"pinyin": "shàng tóu",
+"meaning_en": "Hooked, obsessed, carried away by something.",
+"eq": {
+"en": "obsessed / hooked",
+"fr": "accro / à fond dedans",
+"zh": "上头"
+},
+"register": "casual",
+"example": "这首歌太上头了",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "ddl",
+"lang": "zh",
+"pinyin": "ddl",
+"meaning_en": "Deadline (student slang).",
+"eq": {
+"en": "deadline",
+"fr": "deadline / le rendu",
+"zh": "截止日期"
+},
+"register": "casual",
+"example": "今晚有三个ddl",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "大佬",
+"lang": "zh",
+"pinyin": "dà lǎo",
+"meaning_en": "A big shot, an expert, someone very skilled.",
+"eq": {
+"en": "legend / pro",
+"fr": "un boss / un crack",
+"zh": "大佬"
+},
+"register": "casual",
+"example": "求大佬带飞",
+"source": "HSK Lord slang guide"
+},
+{
+"term": "小白",
+"lang": "zh",
+"pinyin": "xiǎo bái",
+"meaning_en": "A newbie, a beginner.",
+"eq": {
+"en": "noob / newbie",
+"fr": "débutant / noob",
+"zh": "新手"
+},
+"register": "casual",
+"example": "我是编程小白",
+"source": "HSK Lord slang guide"
+},
+{
+"term": "裂开",
+"lang": "zh",
+"pinyin": "liè kāi",
+"meaning_en": "'Cracked open' — devastated, broken, can't cope.",
+"eq": {
+"en": "I'm crushed / I'm cooked",
+"fr": "je suis en PLS",
+"zh": "裂开了"
+},
+"register": "casual",
+"example": "考试挂了，我裂开了",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "摸鱼",
+"lang": "zh",
+"pinyin": "mō yú",
+"meaning_en": "'Touching fish' — slacking off during work or class.",
+"eq": {
+"en": "slacking off",
+"fr": "glander / tirer au flanc",
+"zh": "摸鱼"
+},
+"register": "casual",
+"example": "上课摸鱼被发现了",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "干饭",
+"lang": "zh",
+"pinyin": "gàn fàn",
+"meaning_en": "Going to eat, enthusiastically.",
+"eq": {
+"en": "food time! / let's eat",
+"fr": "on va graille !",
+"zh": "吃饭"
+},
+"register": "casual",
+"example": "干饭人干饭魂",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "冲鸭",
+"lang": "zh",
+"pinyin": "chōng yā",
+"meaning_en": "'Let's go!' — 鸭 (duck) replaces 呀 for cuteness.",
+"eq": {
+"en": "let's gooo!",
+"fr": "go go go !",
+"zh": "冲啊"
+},
+"register": "cute",
+"example": "期末冲鸭",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "撒狗粮",
+"lang": "zh",
+"pinyin": "sǎ gǒu liáng",
+"meaning_en": "'Throwing dog food' — a couple showing off their love in front of singles.",
+"eq": {
+"en": "PDA overload / flexing their relationship",
+"fr": "ils nous font une overdose de couple",
+"zh": "撒狗粮"
+},
+"register": "casual",
+"example": "又在朋友圈撒狗粮",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "单身狗",
+"lang": "zh",
+"pinyin": "dān shēn gǒu",
+"meaning_en": "'Single dog' — self-mocking term for a single person.",
+"eq": {
+"en": "forever alone",
+"fr": "célibataire endurci(e) (ironique)",
+"zh": "单身狗"
+},
+"register": "casual",
+"example": "情人节单身狗哭了",
+"source": "Wikipedia: Chinese Internet slang"
+},
+{
+"term": "hhh",
+"pattern": "h{3,}",
+"lang": "zh",
+"pinyin": "hā hā hā",
+"meaning_en": "Laughter (abbreviation of 哈哈哈).",
+"eq": {
+"en": "lol",
+"fr": "mdr",
+"zh": "哈哈哈"
+},
+"register": "casual",
+"example": "hhhh 好好笑",
+"source": "Go East Mandarin abbreviations"
+},
+{
+"term": "xdm",
+"lang": "zh",
+"pinyin": "xiōng dì men",
+"meaning_en": "兄弟们 'Bros / guys' (addressing a group).",
+"eq": {
+"en": "guys / bros",
+"fr": "les gars / la team",
+"zh": "兄弟们"
+},
+"register": "casual",
+"example": "xdm 今晚开黑吗",
+"source": "Classy Mandarin (REDnote abbreviations)"
+},
+{
+"term": "集美",
+"lang": "zh",
+"pinyin": "jí měi",
+"meaning_en": "Homophone of 姐妹 'sisters' — girlies, besties.",
+"eq": {
+"en": "girlies / besties",
+"fr": "les copines / les meufs",
+"zh": "姐妹"
+},
+"register": "casual",
+"example": "集美们冲",
+"source": "HSK Lord slang guide"
+},
+{
+"term": "绝了",
+"lang": "zh",
+"pinyin": "jué le",
+"meaning_en": "Amazing / unbelievable (positive or exasperated).",
+"eq": {
+"en": "insane / unreal",
+"fr": "une dinguerie / incroyable",
+"zh": "绝了"
+},
+"register": "casual",
+"example": "这家奶茶绝了",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "无语",
+"lang": "zh",
+"pinyin": "wú yǔ",
+"meaning_en": "Speechless (annoyed or exasperated).",
+"eq": {
+"en": "I can't even / smh",
+"fr": "j'ai pas de mots / sérieux…",
+"zh": "无语"
+},
+"register": "casual",
+"example": "真的无语",
+"source": "Team curated (Luc Zhan to verify)"
+},
+{
+"term": "no cap",
+"lang": "en",
+"meaning_en": "For real, not lying.",
+"meaning_fr": "Sans mentir, pour de vrai.",
+"eq": {
+"en": "no cap",
+"fr": "sans mentir / en vrai",
+"zh": "不骗你 / 真的"
+},
+"register": "casual",
+"example": "No cap, best pizza in town",
+"source": "Merriam-Webster slang; Urban Dictionary"
+},
+{
+"term": "cap",
+"lang": "en",
+"meaning_en": "A lie; 'that's cap' = that's not true.",
+"meaning_fr": "Un mytho, c'est faux.",
+"eq": {
+"en": "cap",
+"fr": "c'est du mytho",
+"zh": "吹牛 / 瞎扯"
+},
+"register": "casual",
+"example": "That's cap 🧢",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "lowkey",
+"lang": "en",
+"meaning_en": "Kind of, secretly, a little.",
+"meaning_fr": "Un peu, discrètement, en vrai.",
+"eq": {
+"en": "lowkey",
+"fr": "un peu / en vrai",
+"zh": "有点 / 偷偷"
+},
+"register": "casual",
+"example": "I'm lowkey tired",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "highkey",
+"lang": "en",
+"meaning_en": "Openly, very much.",
+"meaning_fr": "Carrément, à fond.",
+"eq": {
+"en": "highkey",
+"fr": "carrément",
+"zh": "超级 / 明着"
+},
+"register": "casual",
+"example": "I highkey love this song",
+"source": "Urban Dictionary"
+},
+{
+"term": "fr",
+"lang": "en",
+"meaning_en": "'For real' — agreement or emphasis.",
+"meaning_fr": "Grave, c'est vrai.",
+"eq": {
+"en": "fr",
+"fr": "grave / sah",
+"zh": "真的 / 确实"
+},
+"register": "casual",
+"example": "this class is so long fr",
+"source": "Urban Dictionary"
+},
+{
+"term": "mid",
+"lang": "en",
+"meaning_en": "Mediocre, average, overrated.",
+"meaning_fr": "Bof, moyen.",
+"eq": {
+"en": "mid",
+"fr": "bof / moyen",
+"zh": "一般般 / 就那样"
+},
+"register": "casual",
+"example": "the movie was mid",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "bussin",
+"lang": "en",
+"meaning_en": "Extremely good (usually food).",
+"meaning_fr": "Trop bon, une dinguerie.",
+"eq": {
+"en": "bussin",
+"fr": "une dinguerie / trop bon",
+"zh": "绝了 / 好吃到哭"
+},
+"register": "casual",
+"example": "this ramen is bussin",
+"source": "Urban Dictionary"
+},
+{
+"term": "slay",
+"lang": "en",
+"meaning_en": "To do something brilliantly or look amazing.",
+"meaning_fr": "Tout déchirer.",
+"eq": {
+"en": "slay",
+"fr": "tout déchirer",
+"zh": "杀疯了 / 绝绝子"
+},
+"register": "casual",
+"example": "you slayed that presentation",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "ate",
+"lang": "en",
+"meaning_en": "Did something perfectly ('she ate and left no crumbs').",
+"meaning_fr": "Elle a tout déchiré.",
+"eq": {
+"en": "ate",
+"fr": "elle a tout plié",
+"zh": "杀疯了 / 赢麻了"
+},
+"register": "casual",
+"example": "she ate that",
+"source": "Urban Dictionary"
+},
+{
+"term": "rizz",
+"lang": "en",
+"meaning_en": "Charm, ability to flirt.",
+"meaning_fr": "Le charo, la tchatche.",
+"eq": {
+"en": "rizz",
+"fr": "le charo / la tchatche",
+"zh": "撩人能力 / 会撩"
+},
+"register": "casual",
+"example": "he's got no rizz",
+"source": "Oxford Word of the Year 2023"
+},
+{
+"term": "ghosted",
+"lang": "en",
+"meaning_en": "Cut off all contact without explanation.",
+"meaning_fr": "Disparaître sans prévenir, ghoster.",
+"eq": {
+"en": "ghosted",
+"fr": "il l'a ghostée",
+"zh": "人间蒸发 / 已读不回"
+},
+"register": "casual",
+"example": "he ghosted her after one date",
+"source": "Merriam-Webster"
+},
+{
+"term": "I'm dead",
+"lang": "en",
+"meaning_en": "Something is extremely funny.",
+"meaning_fr": "Je suis mort(e) de rire.",
+"eq": {
+"en": "I'm dead 💀",
+"fr": "ptdr je suis mort",
+"zh": "笑死 / xswl"
+},
+"register": "casual",
+"example": "I'm dead 💀",
+"source": "Urban Dictionary"
+},
+{
+"term": "sus",
+"lang": "en",
+"meaning_en": "Suspicious, shady.",
+"meaning_fr": "Louche, chelou.",
+"eq": {
+"en": "sus",
+"fr": "louche / chelou",
+"zh": "可疑 / 有鬼"
+},
+"register": "casual",
+"example": "that's kinda sus",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "bet",
+"lang": "en",
+"meaning_en": "OK, deal, sounds good.",
+"meaning_fr": "Ça marche, vas-y.",
+"eq": {
+"en": "bet",
+"fr": "ça marche / vas-y",
+"zh": "行 / 好嘞"
+},
+"register": "casual",
+"example": "7pm? bet",
+"source": "Urban Dictionary"
+},
+{
+"term": "salty",
+"lang": "en",
+"meaning_en": "Bitter, upset, resentful.",
+"meaning_fr": "Avoir le seum.",
+"eq": {
+"en": "salty",
+"fr": "il a le seum",
+"zh": "酸了 / 不爽"
+},
+"register": "casual",
+"example": "he's salty he lost",
+"source": "Merriam-Webster"
+},
+{
+"term": "flex",
+"lang": "en",
+"meaning_en": "To show off.",
+"meaning_fr": "Frimer, se la péter.",
+"eq": {
+"en": "flex",
+"fr": "frimer / se la péter",
+"zh": "炫耀 / 凡尔赛"
+},
+"register": "casual",
+"example": "weird flex but ok",
+"source": "Merriam-Webster"
+},
+{
+"term": "GOAT",
+"lang": "en",
+"meaning_en": "Greatest Of All Time.",
+"meaning_fr": "Le meilleur de tous les temps.",
+"eq": {
+"en": "GOAT",
+"fr": "le GOAT / le meilleur",
+"zh": "yyds / 永远的神"
+},
+"register": "casual",
+"example": "Messi is the GOAT",
+"source": "Merriam-Webster"
+},
+{
+"term": "spill the tea",
+"lang": "en",
+"meaning_en": "Share the gossip.",
+"meaning_fr": "Balance les potins.",
+"eq": {
+"en": "spill the tea",
+"fr": "balance les potins",
+"zh": "快爆料 / 有瓜快说"
+},
+"register": "casual",
+"example": "spill the tea ☕",
+"source": "Merriam-Webster"
+},
+{
+"term": "it's giving",
+"lang": "en",
+"meaning_en": "It has the vibe of…",
+"meaning_fr": "Ça fait très…, ça donne un style…",
+"eq": {
+"en": "it's giving",
+"fr": "ça fait très…",
+"zh": "有…那味儿了"
+},
+"register": "casual",
+"example": "it's giving main character",
+"source": "Urban Dictionary"
+},
+{
+"term": "delulu",
+"lang": "en",
+"meaning_en": "Delusional (often about a crush).",
+"meaning_fr": "Se faire des films.",
+"eq": {
+"en": "delulu",
+"fr": "elle se fait des films",
+"zh": "恋爱脑 / 做梦呢"
+},
+"register": "casual",
+"example": "delulu is the solulu",
+"source": "Dictionary.com"
+},
+{
+"term": "touch grass",
+"lang": "en",
+"meaning_en": "Go outside, you're too online.",
+"meaning_fr": "Va prendre l'air.",
+"eq": {
+"en": "touch grass",
+"fr": "va prendre l'air",
+"zh": "出去走走吧 / 少冲浪"
+},
+"register": "casual",
+"example": "bro needs to touch grass",
+"source": "Dictionary.com"
+},
+{
+"term": "rent free",
+"lang": "en",
+"meaning_en": "Constantly on someone's mind.",
+"meaning_fr": "Ça me trotte dans la tête.",
+"eq": {
+"en": "living rent free",
+"fr": "ça me trotte dans la tête",
+"zh": "洗脑 / 念念不忘"
+},
+"register": "casual",
+"example": "that song lives in my head rent free",
+"source": "Merriam-Webster"
+},
+{
+"term": "the ick",
+"lang": "en",
+"meaning_en": "A sudden feeling of disgust/turn-off toward someone.",
+"meaning_fr": "Ça m'a refroidi(e).",
+"eq": {
+"en": "the ick",
+"fr": "ça m'a refroidi(e)",
+"zh": "下头"
+},
+"register": "casual",
+"example": "he chewed loudly, instant ick",
+"source": "Collins Dictionary"
+},
+{
+"term": "situationship",
+"lang": "en",
+"meaning_en": "A romantic relationship that isn't official.",
+"meaning_fr": "Une relation pas officielle, un plan flou.",
+"eq": {
+"en": "situationship",
+"fr": "relation pas officielle",
+"zh": "暧昧关系"
+},
+"register": "casual",
+"example": "we're in a situationship",
+"source": "Oxford Languages"
+},
+{
+"term": "NPC",
+"lang": "en",
+"meaning_en": "Someone who acts generic, like a background game character.",
+"meaning_fr": "Un PNJ.",
+"eq": {
+"en": "NPC",
+"fr": "un PNJ",
+"zh": "路人甲 / NPC"
+},
+"register": "casual",
+"example": "he's such an NPC",
+"source": "Dictionary.com"
+},
+{
+"term": "ngl",
+"lang": "en",
+"meaning_en": "Not gonna lie.",
+"meaning_fr": "Franchement, en vrai.",
+"eq": {
+"en": "ngl",
+"fr": "en vrai / franchement",
+"zh": "有一说一 / 说实话"
+},
+"register": "casual",
+"example": "ngl that was fun",
+"source": "Urban Dictionary"
+},
+{
+"term": "smh",
+"lang": "en",
+"meaning_en": "Shaking my head — disappointment.",
+"meaning_fr": "J'hallucine, sérieux…",
+"eq": {
+"en": "smh",
+"fr": "j'hallucine",
+"zh": "无语 / 服了"
+},
+"register": "casual",
+"example": "late again smh",
+"source": "Merriam-Webster"
+},
+{
+"term": "iykyk",
+"lang": "en",
+"meaning_en": "If you know, you know.",
+"meaning_fr": "Ceux qui savent savent.",
+"eq": {
+"en": "iykyk",
+"fr": "ceux qui savent savent",
+"zh": "懂的都懂 / dddd"
+},
+"register": "casual",
+"example": "room 204 iykyk",
+"source": "Dictionary.com"
+},
+{
+"term": "cooked",
+"lang": "en",
+"meaning_en": "Doomed, in trouble, done for.",
+"meaning_fr": "Cuit, c'est mort.",
+"eq": {
+"en": "I'm cooked",
+"fr": "je suis cuit / c'est mort",
+"zh": "芭比Q了 / 完蛋了"
+},
+"register": "casual",
+"example": "exam tomorrow and I haven't studied, I'm cooked",
+"source": "Urban Dictionary"
+},
+{
+"term": "fire",
+"lang": "en",
+"meaning_en": "Excellent, amazing.",
+"meaning_fr": "C'est le feu, une dinguerie.",
+"eq": {
+"en": "fire 🔥",
+"fr": "c'est le feu / une dinguerie",
+"zh": "绝了 / 炸了"
+},
+"register": "casual",
+"example": "that party was fire",
+"source": "Merriam-Webster slang"
+},
+{
+"term": "link up",
+"lang": "en",
+"meaning_en": "Meet up, hang out.",
+"meaning_fr": "Se capter, se voir.",
+"eq": {
+"en": "link up",
+"fr": "se capter",
+"zh": "约 / 碰个面"
+},
+"register": "casual",
+"example": "let's link up this weekend",
+"source": "Urban Dictionary"
+},
+{
+"term": "bro",
+"lang": "en",
+"meaning_en": "Friend / dude (can be addressed to anyone).",
+"meaning_fr": "Frère, frérot, mec.",
+"eq": {
+"en": "bro",
+"fr": "frérot / mec",
+"zh": "兄弟 / 哥们 / 老铁"
+},
+"register": "casual",
+"example": "bro what",
+"source": "Merriam-Webster"
+},
+{
+"term": "mdr",
+"lang": "fr",
+"meaning_en": "'Mort de rire' — LOL.",
+"meaning_fr": "Mort de rire.",
+"eq": {
+"en": "lol",
+"fr": "mdr",
+"zh": "哈哈哈 / 笑死"
+},
+"register": "casual",
+"example": "mdr t'es bête",
+"source": "Wiktionnaire; techno-science.net (argot Internet)"
+},
+{
+"term": "ptdr",
+"lang": "fr",
+"meaning_en": "'Pété de rire' — LMAO, stronger than mdr.",
+"meaning_fr": "Pété de rire.",
+"eq": {
+"en": "lmao",
+"fr": "ptdr",
+"zh": "笑死我了 / xswl"
+},
+"register": "casual",
+"example": "ptdr j'en peux plus",
+"source": "Wiktionnaire"
+},
+{
+"term": "jpp",
+"lang": "fr",
+"meaning_en": "'J'en peux plus' — I can't anymore (laughing, or exhausted).",
+"meaning_fr": "J'en peux plus.",
+"eq": {
+"en": "I can't 💀 / I'm done",
+"fr": "jpp",
+"zh": "绷不住了 / 我不行了"
+},
+"register": "casual",
+"example": "jpp de ce prof",
+"source": "Demotivateur (« jpp »)"
+},
+{
+"term": "askip",
+"lang": "fr",
+"meaning_en": "'À ce qu'il paraît' — apparently, rumour has it.",
+"meaning_fr": "À ce qu'il paraît.",
+"eq": {
+"en": "apparently / word is",
+"fr": "askip",
+"zh": "听说 / 据说"
+},
+"register": "casual",
+"example": "askip il sort avec elle",
+"source": "Superprof (expressions de jeunes)"
+},
+{
+"term": "wesh",
+"lang": "fr",
+"meaning_en": "Hey / yo (greeting or interjection).",
+"meaning_fr": "Salut, eh.",
+"eq": {
+"en": "yo",
+"fr": "wesh",
+"zh": "嘿 / 哟"
+},
+"register": "casual",
+"example": "wesh ça va ?",
+"source": "Wiktionnaire"
+},
+{
+"term": "seum",
+"lang": "fr",
+"meaning_en": "'Avoir le seum' — to be bitter, gutted, annoyed.",
+"meaning_fr": "Être dégoûté, frustré.",
+"eq": {
+"en": "salty / gutted",
+"fr": "avoir le seum",
+"zh": "酸了 / 气死了"
+},
+"register": "casual",
+"example": "j'ai trop le seum",
+"source": "Wiktionnaire"
+},
+{
+"term": "PLS",
+"lang": "fr",
+"meaning_en": "'Être en PLS' (recovery position) — devastated, not coping.",
+"meaning_fr": "Être au fond du trou.",
+"eq": {
+"en": "I'm a wreck / not okay",
+"fr": "en PLS",
+"zh": "裂开了 / 破防了"
+},
+"register": "casual",
+"example": "je suis en PLS après l'exam",
+"source": "Superprof (expressions de jeunes)"
+},
+{
+"term": "chelou",
+"lang": "fr",
+"meaning_en": "Weird, shady (verlan of 'louche').",
+"meaning_fr": "Bizarre, louche.",
+"eq": {
+"en": "sketchy / weird",
+"fr": "chelou",
+"zh": "怪怪的 / 可疑"
+},
+"register": "casual",
+"example": "il est chelou ce mec",
+"source": "Wiktionnaire"
+},
+{
+"term": "relou",
+"lang": "fr",
+"meaning_en": "Annoying (verlan of 'lourd').",
+"meaning_fr": "Pénible.",
+"eq": {
+"en": "annoying / such a pain",
+"fr": "relou",
+"zh": "烦人 / 好烦"
+},
+"register": "casual",
+"example": "t'es relou",
+"source": "Wiktionnaire"
+},
+{
+"term": "ouf",
+"lang": "fr",
+"meaning_en": "Crazy, insane (verlan of 'fou').",
+"meaning_fr": "Fou, incroyable.",
+"eq": {
+"en": "insane / wild",
+"fr": "ouf",
+"zh": "离谱 / 绝了"
+},
+"register": "casual",
+"example": "c'était ouf",
+"source": "Wiktionnaire"
+},
+{
+"term": "grave",
+"lang": "fr",
+"meaning_en": "Totally, so much; 'grave !' = totally agree.",
+"meaning_fr": "Carrément.",
+"eq": {
+"en": "totally / fr",
+"fr": "grave",
+"zh": "超 / 确实"
+},
+"register": "casual",
+"example": "grave, je suis d'accord",
+"source": "Wiktionnaire"
+},
+{
+"term": "kiffer",
+"lang": "fr",
+"meaning_en": "To love/enjoy something.",
+"meaning_fr": "Aimer beaucoup.",
+"eq": {
+"en": "to be into / to love",
+"fr": "kiffer",
+"zh": "超爱 / 上头"
+},
+"register": "casual",
+"example": "je kiffe ce son",
+"source": "Wiktionnaire"
+},
+{
+"term": "tkt",
+"lang": "fr",
+"meaning_en": "'T'inquiète' — don't worry.",
+"meaning_fr": "Ne t'inquiète pas.",
+"eq": {
+"en": "no worries",
+"fr": "tkt",
+"zh": "别担心 / 没事"
+},
+"register": "casual",
+"example": "tkt je gère",
+"source": "techno-science.net (langage SMS)"
+},
+{
+"term": "jsp",
+"lang": "fr",
+"meaning_en": "'Je sais pas' — I don't know.",
+"meaning_fr": "Je ne sais pas.",
+"eq": {
+"en": "idk",
+"fr": "jsp",
+"zh": "不知道 / bzd"
+},
+"register": "casual",
+"example": "jsp ce qu'on fait ce soir",
+"source": "techno-science.net (langage SMS)"
+},
+{
+"term": "bg",
+"lang": "fr",
+"meaning_en": "'Beau gosse' — good-looking guy; also 'legend' as praise.",
+"meaning_fr": "Beau gosse.",
+"eq": {
+"en": "hottie / legend",
+"fr": "bg",
+"zh": "帅哥 / 靓仔"
+},
+"register": "casual",
+"example": "merci t'es un bg",
+"source": "Wiktionnaire"
+},
+{
+"term": "c'est chaud",
+"lang": "fr",
+"meaning_en": "It's tough/risky; or 'that's wild'.",
+"meaning_fr": "C'est difficile / c'est risqué.",
+"eq": {
+"en": "that's rough / that's wild",
+"fr": "c'est chaud",
+"zh": "悬了 / 有点难"
+},
+"register": "casual",
+"example": "c'est chaud pour ce soir",
+"source": "Superprof (expressions de jeunes)"
+},
+{
+"term": "t'es chaud",
+"lang": "fr",
+"meaning_en": "'Are you up for it?' — are you in?",
+"meaning_fr": "Tu es partant ?",
+"eq": {
+"en": "you down?",
+"fr": "t'es chaud ?",
+"zh": "来不来？/ 去不去？"
+},
+"register": "casual",
+"example": "t'es chaud pour un ciné ?",
+"source": "Team curated"
+},
+{
+"term": "gênance",
+"lang": "fr",
+"meaning_en": "Cringe, embarrassing moment.",
+"meaning_fr": "Moment gênant.",
+"eq": {
+"en": "cringe",
+"fr": "gênance",
+"zh": "尴尬 / 社死"
+},
+"register": "casual",
+"example": "la gênance de ce moment",
+"source": "Wiktionnaire"
+},
+{
+"term": "osef",
+"lang": "fr",
+"meaning_en": "'On s'en fout' — who cares.",
+"meaning_fr": "On s'en fiche.",
+"eq": {
+"en": "who cares",
+"fr": "osef",
+"zh": "无所谓 / 关我啥事"
+},
+"register": "casual-rude",
+"example": "osef de son avis",
+"source": "Wiktionnaire"
+},
+{
+"term": "cheh",
+"lang": "fr",
+"meaning_en": "Serves you right (mocking).",
+"meaning_fr": "Bien fait pour toi.",
+"eq": {
+"en": "serves you right / L",
+"fr": "cheh",
+"zh": "活该"
+},
+"register": "casual-mocking",
+"example": "t'as raté le bus ? cheh",
+"source": "Wiktionnaire"
+},
+{
+"term": "la flemme",
+"lang": "fr",
+"meaning_en": "Can't be bothered, feeling lazy.",
+"meaning_fr": "Pas envie de faire d'effort.",
+"eq": {
+"en": "can't be bothered",
+"fr": "la flemme",
+"zh": "懒得 / 不想动"
+},
+"register": "casual",
+"example": "j'ai la flemme d'aller en cours",
+"source": "Wiktionnaire"
+},
+{
+"term": "oklm",
+"lang": "fr",
+"meaning_en": "'Au calme' — chilling, relaxed.",
+"meaning_fr": "Tranquille, au calme.",
+"eq": {
+"en": "chilling",
+"fr": "oklm",
+"zh": "悠闲 / 躺着"
+},
+"register": "casual",
+"example": "dimanche oklm",
+"source": "Wiktionnaire"
+},
+{
+"term": "en scred",
+"lang": "fr",
+"meaning_en": "Secretly, on the down-low.",
+"meaning_fr": "En secret, discrètement.",
+"eq": {
+"en": "on the low",
+"fr": "en scred",
+"zh": "偷偷"
+},
+"register": "casual",
+"example": "il est parti en scred",
+"source": "Wiktionnaire"
+},
+{
+"term": "darons",
+"lang": "fr",
+"meaning_en": "Parents (daron = dad, daronne = mum).",
+"meaning_fr": "Les parents.",
+"eq": {
+"en": "my folks / parents",
+"fr": "les darons",
+"zh": "爸妈 / 老爸老妈"
+},
+"register": "casual",
+"example": "mes darons sont pas là",
+"source": "Wiktionnaire"
+},
+{
+"term": "frérot",
+"lang": "fr",
+"meaning_en": "Bro.",
+"meaning_fr": "Mon frère, mon pote.",
+"eq": {
+"en": "bro",
+"fr": "frérot",
+"zh": "兄弟 / 老铁"
+},
+"register": "casual",
+"example": "merci frérot",
+"source": "Wiktionnaire"
+},
+{
+"term": "sah",
+"lang": "fr",
+"meaning_en": "For real / seriously ('c'est sah' = it's true).",
+"meaning_fr": "Vraiment, sérieux.",
+"eq": {
+"en": "fr / for real",
+"fr": "sah",
+"zh": "真的 / 认真的"
+},
+"register": "casual",
+"example": "sah t'es sûr ?",
+"source": "Wiktionnaire"
+},
+{
+"term": "c'est moi qui régale",
+"lang": "fr",
+"meaning_en": "It's on me, I'm paying.",
+"meaning_fr": "C'est moi qui paie.",
+"eq": {
+"en": "it's on me",
+"fr": "c'est moi qui régale",
+"zh": "我请客"
+},
+"register": "casual",
+"example": "vas-y c'est moi qui régale",
+"source": "Team curated"
+},
+{
+"term": "un grec",
+"lang": "fr",
+"meaning_en": "A kebab sandwich (French student staple).",
+"meaning_fr": "Un kebab.",
+"eq": {
+"en": "a kebab",
+"fr": "un grec",
+"zh": "烤肉卷 / 吃个宵夜"
+},
+"register": "casual",
+"example": "on se fait un grec ?",
+"source": "Team curated"
+},
+{
+"term": "partiel",
+"lang": "fr",
+"meaning_en": "University exam (mid-term/final).",
+"meaning_fr": "Examen universitaire.",
+"eq": {
+"en": "exam / midterm",
+"fr": "partiel",
+"zh": "期中考 / 期末考"
+},
+"register": "neutral",
+"example": "j'ai raté mon partiel",
+"source": "Team curated"
+},
+{
+"term": "bouffon",
+"lang": "fr",
+"meaning_en": "Clown, idiot (insult, mild).",
+"meaning_fr": "Idiot.",
+"eq": {
+"en": "clown",
+"fr": "bouffon",
+"zh": "小丑 / 傻瓜"
+},
+"register": "casual-rude",
+"example": "quel bouffon",
+"source": "Wiktionnaire"
+}
+]

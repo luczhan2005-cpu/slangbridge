@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SlangBridge</title>
+  <meta name="description" content="AI slang-to-slang translator for international students: Chinese, English, French." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="favicon.svg" alt="" width="30" height="30" />
+      <div>
+        <div class="brand-name">SlangBridge</div>
+        <div class="brand-tag">Translate the vibe, not just the words</div>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="translate" role="tab">Translate</button>
+      <button class="tab" data-view="glossary" role="tab">Slang database</button>
+      <button class="tab" data-view="evaluate" role="tab">Evaluation</button>
+      <button class="tab" data-view="about" role="tab">About</button>
+    </nav>
+    <div id="status-pill" class="pill">…</div>
+  </header>
+
+  <main>
+    <!-- ============ TRANSLATE ============ -->
+    <section id="view-translate" class="view active">
+      <div class="grid-2">
+        <div class="card">
+          <label class="label" for="message">Message</label>
+          <textarea id="message" rows="4" maxlength="2000" placeholder="Paste a WeChat / WhatsApp message… e.g. 今天的讲座真的绝绝子，教授yyds！"></textarea>
+
+          <details id="context-box">
+            <summary>Add conversation context <span class="muted">(optional, helps with sarcasm &amp; ambiguous slang)</span></summary>
+            <textarea id="context" rows="3" maxlength="4000" placeholder="A: 我刚面试完&#10;B: 怎么样？"></textarea>
+          </details>
+
+          <div class="row">
+            <div class="field">
+              <label class="label" for="source">From</label>
+              <select id="source">
+                <option value="auto">Detect</option>
+                <option value="zh">中文 Chinese</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+              </select>
+            </div>
+            <button id="swap" class="icon-btn" title="Swap languages" aria-label="Swap languages">⇄</button>
+            <div class="field">
+              <label class="label" for="target">To</label>
+              <select id="target">
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="zh">中文 Chinese</option>
+              </select>
+            </div>
+            <div class="field">
+              <label class="label" for="relationship">Sending to</label>
+              <select id="relationship">
+                <option value="friend">A close friend</option>
+                <option value="classmate">A classmate</option>
+                <option value="group">A group chat</option>
+                <option value="crush">Partner / crush</option>
+                <option value="professor">A professor (formal)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="label">Output mode</div>
+          <div class="segmented" id="mode">
+            <button data-mode="same_vibe" class="seg active"><b>Same Vibe</b><span>slang → slang</span></button>
+            <button data-mode="neutral" class="seg"><b>Neutral</b><span>clear, no slang</span></button>
+            <button data-mode="explain" class="seg"><b>Explain</b><span>learn every term</span></button>
+          </div>
+
+          <div class="row end">
+            <label class="check"><input type="checkbox" id="compare" checked /> Compare with literal machine translation</label>
+            <button id="go" class="primary">Translate</button>
+          </div>
+
+          <div class="examples">
+            <span class="muted">Try:</span>
+            <button class="chip" data-ex="0">绝绝子 / yyds</button>
+            <button class="chip" data-ex="1">我真的会谢</button>
+            <button class="chip" data-ex="2">No cap…</button>
+            <button class="chip" data-ex="3">Wesh t'es chaud</button>
+            <button class="chip" data-ex="4">芭比Q了 + context</button>
+          </div>
+        </div>
+
+        <div class="card result-card" id="result">
+          <div class="empty">
+            <div class="empty-icon">💬</div>
+            <p>Your translation appears here, with the slang decoded and a comparison against a standard machine translation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GLOSSARY ============ -->
+    <section id="view-glossary" class="view">
+      <div class="card">
+        <div class="row">
+          <input id="g-q" type="search" placeholder="Search a term or a meaning: yyds, seum, GOAT, 躺平…" />
+          <select id="g-lang">
+            <option value="">All languages</option>
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+          </select>
+          <select id="g-source">
+            <option value="">All sources</option>
+            <option value="curated">Team curated</option>
+            <option value="cibuzzbench">CIBuzzBench</option>
+          </select>
+        </div>
+        <p class="muted small" id="g-count"></p>
+      </div>
+      <div id="g-list" class="g-grid"></div>
+      <div class="row center"><button id="g-more" class="ghost">Load more</button></div>
+    </section>
+
+    <!-- ============ EVALUATION ============ -->
+    <section id="view-evaluate" class="view">
+      <div class="card">
+        <h2>1 · Realistic student messages</h2>
+        <p class="muted">Each test case is translated by the <b>baseline</b> (MyMemory machine translation) and by <b>SlangBridge</b> (Same Vibe mode). An LLM judge scores both against the team's reference meaning with fixed anchors: meaning 0–2, slang &amp; tone 0–2, naturalness 0–2 (total /6). You can override any score by hand.</p>
+        <div class="row">
+          <button id="ev-run" class="primary">Run test cases</button>
+          <button id="ev-csv" class="ghost" disabled>Export CSV</button>
+          <span id="ev-progress" class="muted"></span>
+        </div>
+        <div id="ev-summary" class="stats"></div>
+        <div class="table-wrap"><table id="ev-table" class="table"></table></div>
+      </div>
+
+      <div class="card">
+        <h2>2 · CIBuzzBench benchmark (unseen slang)</h2>
+        <p class="muted">Random entries from the <b>test split</b> of CIBuzzBench (non-offensive). Each Chinese term is rendered into English by three systems; the judge checks it against the dataset's gold meaning (1 / 0.5 / 0). Test entries are <b>excluded from retrieval</b>, so the glossary cannot leak the answer.</p>
+        <div class="row">
+          <label class="field inline">Sample size
+            <select id="bm-n"><option>10</option><option selected>20</option><option>50</option></select>
+          </label>
+          <label class="check"><input type="checkbox" class="bm-sys" value="baseline" checked /> Baseline MT</label>
+          <label class="check"><input type="checkbox" class="bm-sys" value="ai_noglossary" checked /> AI without glossary</label>
+          <label class="check"><input type="checkbox" class="bm-sys" value="ai_glossary" checked /> AI + glossary</label>
+          <button id="bm-run" class="primary">Run benchmark</button>
+          <button id="bm-csv" class="ghost" disabled>Export CSV</button>
+          <span id="bm-progress" class="muted"></span>
+        </div>
+        <div id="bm-summary" class="stats"></div>
+        <div class="table-wrap"><table id="bm-table" class="table"></table></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="view-about" class="view">
+      <div class="card prose">
+        <h2>Why SlangBridge?</h2>
+        <p><b>Target users:</b> international and exchange students who text across French, English and Chinese on WeChat and WhatsApp.</p>
+        <p><b>Problem:</b> translation tools translate words, not intent. <i>yyds</i> becomes “forever god”, <i>我真的会谢</i> becomes “I will really thank”, <i>j'ai le seum</i> is left untranslated. Tone, sarcasm and cultural references disappear, and so does the friendship vibe.</p>
+        <p><b>Solution:</b> an AI translator grounded in a slang database that renders slang as equivalent slang (Same Vibe), as plain language (Neutral), or with a full breakdown (Explain), adapted to who you are writing to.</p>
+
+        <h2>How it works</h2>
+        <div class="arch">
+          <div class="arch-box ui">Web app<br /><small>message · context · mode · recipient</small></div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-box">API server<br /><small>Node.js · rate limit · validation</small></div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-col">
+            <div class="arch-box kb">① Slang retrieval<br /><small>3,000+ terms (CIBuzzBench + team list)</small></div>
+            <div class="arch-box ai">② LLM translation<br /><small>grounded prompt → JSON schema output</small></div>
+            <div class="arch-box base">Baseline MT<br /><small>MyMemory, for comparison</small></div>
+          </div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-box ui">Result<br /><small>translation · slang cards · tone · warnings</small></div>
+        </div>
+
+        <h2>Data sources</h2>
+        <ul>
+          <li><a href="https://github.com/SuperYFan/CIBuzzBench" target="_blank" rel="noopener">CIBuzzBench</a>: 3,001 Chinese internet buzzwords with English meanings and equivalents (used for retrieval and for the benchmark).</li>
+          <li>Team-curated list of ZH / EN / FR slang with cross-language equivalents, built from: <a href="https://en.wikipedia.org/wiki/Chinese_Internet_slang" target="_blank" rel="noopener">Wikipedia: Chinese Internet slang</a>, <a href="https://migaku.com/blog/chinese/chinese-internet-abbreviations" target="_blank" rel="noopener">Migaku</a>, <a href="https://hsklord.com/blog/chinese-slang-guide" target="_blank" rel="noopener">HSK Lord</a>, <a href="https://www.lingoace.com/blog/chinese-number-slang/" target="_blank" rel="noopener">LingoAce</a>, <a href="https://www.merriam-webster.com/slang" target="_blank" rel="noopener">Merriam-Webster slang</a>, <a href="https://fr.wiktionary.org/" target="_blank" rel="noopener">Wiktionnaire</a>, <a href="https://www.superprof.fr/blog/definition-expression-de-jeune/" target="_blank" rel="noopener">Superprof</a>, and our own experience in China.</li>
+          <li>Baseline: <a href="https://mymemory.translated.net/" target="_blank" rel="noopener">MyMemory</a> free machine translation API.</li>
+        </ul>
+
+        <h2>Privacy &amp; limits</h2>
+        <ul>
+          <li>Messages are sent to the AI provider and to the baseline MT service to be translated. The app stores nothing on its server. Remove names and personal details before pasting.</li>
+          <li>Slang changes fast: a term can be new, regional, or mean something else in a given friend group. Check the confidence level and the warnings.</li>
+          <li>The automatic judge is an LLM and can be biased toward its own outputs; the team reviews the scores by hand.</li>
+        </ul>
+
+        <h2>Team</h2>
+        <p class="muted">MIS3011 · Advanced AI for Business · Fall 2026 — Amaya Garo (AI &amp; research), Faustine Lepauvre &amp; Farida Benandrianina (web app &amp; testing), Luc Zhan (Chinese translation &amp; cultural adaptation), Tiana Chérel-Robson (UI/UX).</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
